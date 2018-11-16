@@ -1,0 +1,106 @@
+url: http://streetturtle.github.io
+projectUrl: jekyl-cv-crafter
+
+# leave blank fields which you don't want to fill/be displayed
+person:
+  name: Ning Kang
+  depiction: avatar.png
+  profession: IT Developer
+  location: Melbourne, Australia
+  citizenship: China
+  email: hnzz.kn@gmail.com
+  site: http://mikeystmnt.com
+  phone: +61451400717
+  github: /kangnwh
+  linkedin: /ning-kang-4a58a9aa
+
+career:
+ - position: Senior Data Warehouse Developer
+   company: IBM China CIC
+   location: Wuhan, China
+   dates: July 2012 - March 2017
+   summary: Full stack developer in IBM for both backend(data warehouse, web/app backend service, ) and fronten(web frontend, iOS developer).
+   accomplishments:
+    - accomplishment: Contributed as a key member of 3 big projects.
+    - accomplishment: Designed and implemented architectures of more than 5 subsystems/components from requirements analysis phase to deployment phase.
+    - accomplishment: Optimised the basic data process flow to reduce almost 50% of running time.
+    - accomplishment: Designed and develop more than 50 stories.
+    - accomplishment: Built the whole development environment including Linux setup/database installation and configuration/DataStage installation and configuration for 1 business project.
+    - accomplishment: Trained more than 50 new members basic skills (SQL, Linux, etc.) for IBM.
+
+technicalSkills:
+  list:
+    - tr: "Fast learner"
+    - tr: "Familar with IT infrastructure"
+    - tr: "Strong hands-on skills"
+    - tr: "Experienced bug solver"
+    - tr: "Try new things"
+  backend:
+   - name: ASP.net Core/ASP.net MVC
+     level: 80
+   - name: Python Flask
+     level: 80
+  frontend:
+   - name: HTML/CSS/JavaScript
+     level: 80
+   - name: iOS
+     level: 80
+   - name: Angular
+     level: 70
+  other:
+   - name: Databases/Data Warehousing
+     level: 80
+   - name: ETL (DataStage)
+     level: 80
+   - name: PMP (Project Management)
+     level: 70
+
+sideProjects:
+  - name: Fake-Instagram iOS app
+    description: A fake Instagram application for iOS. All functionalities are developed with an additional one - swipe images between users via bluetooth. Detail description can be found via <a href="https://youtu.be/xIZUexAuOMY" target="_blank"> this youtube </a>
+    link: https://github.com/kangnwh/Fake-Instagram
+    type: github
+    langs: Swift
+
+  - name: Fake-Instagram Backend
+    description: The backend serivce for fake Instagram application. Detail description can be found via <a href="https://youtu.be/xIZUexAuOMY" target="_blank"> this youtube </a>
+    link: https://github.com/kangnwh/Fake-Instagram-Backend
+    type: github
+    langs: ASP.Net Core
+
+  - name: iOS Distributed Order System
+    description: This iOS application can be used in restaurant for ordering, billing, order notification for chefs, business analysis, product management, membership management and access management. Main features can be found in github link (only screen shot, no code published) and also <a href="https://youtu.be/iy4HR6iBCHY" target="_blank"> this youtube (Chinese) </a>
+    link: https://github.com/kangnwh/CC-Order-Docs/blob/master/all-screens.md
+    type: github
+    langs: Swift
+
+  - name: Emall
+    description: A simple online store developed in Python Flask.
+    link: https://github.com/kangnwh/Emall
+    type: github
+    langs: Python Flask
+
+  - name: Marketing Performance Warehouse(MPW)
+    description: The MDb/MPW environment consists of a database containing DB2 tables on an AIX platform. The purpose of the MDb/MPW is to provide its end users with usable marketing data. Sales can use this platform to make important business decisions. It generates a unique reference number for all accounts, contacts, products and sends audience data to Siebel via CAST and collates account, contact, interest and activity data.
+    link: '#'
+    type: None
+    langs: Shell/SQL
+
+  - name: Arkema Ambition Project
+    description: This is the data migration part of SAP migration. I was assigned to join the project as PMO, DataStage developer and Linux/DataStage admin.
+    link: '#'
+    type: None
+    langs: Shell/SQL
+
+education:
+  - name: Bachelor of Communication Engineering
+    degree: Jilin University
+    location: Changchun, Jilin, China
+    dates: 2008 – 2012
+    link: https://www.jlu.edu.cn/
+
+  - name: Master of Information Technology
+    degree: University of Melbourne
+    location: Melbourne, Australia
+    dates: 2017 – Now
+    link: https://www.unimelb.edu.au
